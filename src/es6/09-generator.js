@@ -10,3 +10,11 @@ const it = iterate(["manu", "david", "oscar", "ana", "ulises"]);
 console.log(it.next().value);
 console.log(it.next().value);
 console.log(it.next().value);
+
+// playground platzi
+// export function* cosito() {
+//   let michiId = 0;
+//   while (true) {
+//     yield michiId++;
+//   }
+// }
